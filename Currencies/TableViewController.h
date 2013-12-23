@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  Currencies
 //
 //  Created by Bartłomiej Oziębło on 13.12.2013.
@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "CurrenciesContainer.h"
-#import "TableViewController.h"
+#import "CurrencyConverter.h"
 
-@interface ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate>
+@interface TableViewController : UITableViewController <UITableViewDataSource>
+
+@property NSString *baseCurrencySymbol;
+@property double amount;
 
 @end

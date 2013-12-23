@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C568DA31867888F00903E9E /* symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C568DA21867888F00903E9E /* symbols.plist */; };
+		2C568DA5186788ED00903E9E /* short_names.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C568DA4186788ED00903E9E /* short_names.plist */; };
+		2C568DA71867892700903E9E /* full_names.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C568DA61867892700903E9E /* full_names.plist */; };
+		2C581DF51867A0EF00340D39 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C581DF41867A0EF00340D39 /* NavController.m */; };
 		2C755BE2185B3DC100045B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C755BE1185B3DC100045B9A /* Foundation.framework */; };
 		2C755BE4185B3DC100045B9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C755BE3185B3DC100045B9A /* CoreGraphics.framework */; };
 		2C755BE6185B3DC100045B9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C755BE5185B3DC100045B9A /* UIKit.framework */; };
@@ -21,6 +25,10 @@
 		2C755C03185B3DC100045B9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C755BE5185B3DC100045B9A /* UIKit.framework */; };
 		2C755C0B185B3DC100045B9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C755C09185B3DC100045B9A /* InfoPlist.strings */; };
 		2C755C0D185B3DC100045B9A /* CurrenciesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C755C0C185B3DC100045B9A /* CurrenciesTests.m */; };
+		2C755C18185B4A4F00045B9A /* CurrencyConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C755C17185B4A4F00045B9A /* CurrencyConverter.m */; };
+		2CDAC5CB1860E3F700CB4913 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDAC5CA1860E3F700CB4913 /* Currency.m */; };
+		2CF24DC6185BADE10083EC56 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF24DC5185BADE10083EC56 /* TableViewController.m */; };
+		2CF24DCC185BB18A0083EC56 /* CurrenciesContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF24DCB185BB18A0083EC56 /* CurrenciesContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C568DA21867888F00903E9E /* symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = symbols.plist; sourceTree = "<group>"; };
+		2C568DA4186788ED00903E9E /* short_names.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = short_names.plist; sourceTree = "<group>"; };
+		2C568DA61867892700903E9E /* full_names.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = full_names.plist; sourceTree = "<group>"; };
+		2C581DF31867A0EF00340D39 /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		2C581DF41867A0EF00340D39 /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
 		2C755BDE185B3DC100045B9A /* Currencies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Currencies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C755BE1185B3DC100045B9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2C755BE3185B3DC100045B9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +66,14 @@
 		2C755C08185B3DC100045B9A /* CurrenciesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrenciesTests-Info.plist"; sourceTree = "<group>"; };
 		2C755C0A185B3DC100045B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C755C0C185B3DC100045B9A /* CurrenciesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrenciesTests.m; sourceTree = "<group>"; };
+		2C755C16185B4A4F00045B9A /* CurrencyConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConverter.h; sourceTree = "<group>"; };
+		2C755C17185B4A4F00045B9A /* CurrencyConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverter.m; sourceTree = "<group>"; };
+		2CDAC5C91860E3F700CB4913 /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		2CDAC5CA1860E3F700CB4913 /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
+		2CF24DC4185BADE10083EC56 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2CF24DC5185BADE10083EC56 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		2CF24DCA185BB18A0083EC56 /* CurrenciesContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrenciesContainer.h; sourceTree = "<group>"; };
+		2CF24DCB185BB18A0083EC56 /* CurrenciesContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrenciesContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +100,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C568D9F186786D900903E9E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2C568DA21867888F00903E9E /* symbols.plist */,
+				2C568DA4186788ED00903E9E /* short_names.plist */,
+				2C568DA61867892700903E9E /* full_names.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		2C755BD5185B3DC100045B9A = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +143,7 @@
 		2C755BE7185B3DC100045B9A /* Currencies */ = {
 			isa = PBXGroup;
 			children = (
+				2C568D9F186786D900903E9E /* Data */,
 				2C755BF0185B3DC100045B9A /* AppDelegate.h */,
 				2C755BF1185B3DC100045B9A /* AppDelegate.m */,
 				2C755BF3185B3DC100045B9A /* Main.storyboard */,
@@ -119,6 +151,14 @@
 				2C755BF7185B3DC100045B9A /* ViewController.m */,
 				2C755BF9185B3DC100045B9A /* Images.xcassets */,
 				2C755BE8185B3DC100045B9A /* Supporting Files */,
+				2C755C16185B4A4F00045B9A /* CurrencyConverter.h */,
+				2C755C17185B4A4F00045B9A /* CurrencyConverter.m */,
+				2CF24DC4185BADE10083EC56 /* TableViewController.h */,
+				2CF24DC5185BADE10083EC56 /* TableViewController.m */,
+				2CF24DCA185BB18A0083EC56 /* CurrenciesContainer.h */,
+				2CF24DCB185BB18A0083EC56 /* CurrenciesContainer.m */,
+				2C581DF31867A0EF00340D39 /* NavController.h */,
+				2C581DF41867A0EF00340D39 /* NavController.m */,
 			);
 			path = Currencies;
 			sourceTree = "<group>";
@@ -130,6 +170,8 @@
 				2C755BEA185B3DC100045B9A /* InfoPlist.strings */,
 				2C755BED185B3DC100045B9A /* main.m */,
 				2C755BEF185B3DC100045B9A /* Currencies-Prefix.pch */,
+				2CDAC5C91860E3F700CB4913 /* Currency.h */,
+				2CDAC5CA1860E3F700CB4913 /* Currency.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -228,6 +270,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C568DA71867892700903E9E /* full_names.plist in Resources */,
+				2C568DA5186788ED00903E9E /* short_names.plist in Resources */,
+				2C568DA31867888F00903E9E /* symbols.plist in Resources */,
 				2C755BFA185B3DC100045B9A /* Images.xcassets in Resources */,
 				2C755BEC185B3DC100045B9A /* InfoPlist.strings in Resources */,
 				2C755BF5185B3DC100045B9A /* Main.storyboard in Resources */,
@@ -249,8 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C581DF51867A0EF00340D39 /* NavController.m in Sources */,
+				2CF24DCC185BB18A0083EC56 /* CurrenciesContainer.m in Sources */,
 				2C755BF8185B3DC100045B9A /* ViewController.m in Sources */,
+				2C755C18185B4A4F00045B9A /* CurrencyConverter.m in Sources */,
 				2C755BF2185B3DC100045B9A /* AppDelegate.m in Sources */,
+				2CF24DC6185BADE10083EC56 /* TableViewController.m in Sources */,
+				2CDAC5CB1860E3F700CB4913 /* Currency.m in Sources */,
 				2C755BEE185B3DC100045B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +510,7 @@
 				2C755C12185B3DC100045B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C755C13185B3DC100045B9A /* Build configuration list for PBXNativeTarget "CurrenciesTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +519,7 @@
 				2C755C15185B3DC100045B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
